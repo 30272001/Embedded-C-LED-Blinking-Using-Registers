@@ -18,10 +18,10 @@ To understand low-level microcontroller programming using:
 
 ## Circuit Connection
 
-Digital Pin 12 --> resistor(220) --> LED(+) 
-LED(-) --> GND
+Digital Pin 12 --> resistor(220) --> LED(+) --> LED(-) --> GND
 
 ## Code
+
 void setup(){
   DDRB |= (1 << 4);
 }
